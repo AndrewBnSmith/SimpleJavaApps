@@ -20,7 +20,7 @@ public class HelloWorld {
             System.out.print("TIE!");
 
         } else{
-            System.out.print("Alice was the fastest");
+            System.out.print("Alice wins");
         }
 
     }
