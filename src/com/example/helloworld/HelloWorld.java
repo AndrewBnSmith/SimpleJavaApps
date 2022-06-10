@@ -14,13 +14,13 @@ public class HelloWorld {
         System.out.println("What was Bobby's time?");
         double bobbyTime = sc.nextDouble();
 
-        if(aliceTime < bobbyTime){
-            System.out.println("Bobby was the fastest");
-        } else if (aliceTime == bobbyTime) {
-            System.out.print("TIE!");
+        if(aliceTime == bobbyTime){
+            System.out.println("TIE!! Both racers had a time of" + " " + aliceTime + "seconds");
+        } else if (aliceTime > bobbyTime) {
+            System.out.print("Alice wins with a time of" +" " + aliceTime + " " + "seconds");
 
         } else{
-            System.out.print("Alice wins");
+            System.out.print("Bobby wins with a time of" +" " + bobbyTime + " " + "seconds");
         }
 
     }
